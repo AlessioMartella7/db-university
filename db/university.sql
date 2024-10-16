@@ -36,6 +36,10 @@ FROM `degrees`
 WHERE `level` = 'magistrale' ;
 
 -- 7. Da quanti dipartimenti è composta l'università? (12)
+
+SELECT COUNT(`name`)
+FROM `departments`;
+
 -- 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
 -- 9. Inserire nella tabella degli studenti un nuovo record con i propri dati (per il campodegree_id, inserire un valore casuale)
 -- 10. Cambiare il numero dell’ufficio del professor Pietro Rizzo in 126
