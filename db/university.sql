@@ -41,6 +41,11 @@ SELECT COUNT(`name`)
 FROM `departments`;
 
 -- 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
+
+SELECT * 
+FROM `teachers`
+WHERE `phone`IS NULL;
+
 -- 9. Inserire nella tabella degli studenti un nuovo record con i propri dati (per il campodegree_id, inserire un valore casuale)
 -- 10. Cambiare il numero dell’ufficio del professor Pietro Rizzo in 126
 -- 11. Eliminare dalla tabella studenti il record creato precedentemente al punto 9
